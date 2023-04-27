@@ -1,10 +1,10 @@
 package com.example.rentACar.webApi.controllers;
 
 import com.example.rentACar.bussines.abstracts.BrandService;
-import com.example.rentACar.bussines.requests.CreateBrandRequest;
-import com.example.rentACar.bussines.requests.UpdateBrandRequest;
-import com.example.rentACar.bussines.responses.GetAllBrandsResponse;
-import com.example.rentACar.bussines.responses.GetByIdBrandsResponse;
+import com.example.rentACar.bussines.requests.brands.CreateBrandRequest;
+import com.example.rentACar.bussines.requests.brands.UpdateBrandRequest;
+import com.example.rentACar.bussines.responses.brands.GetAllBrandsResponse;
+import com.example.rentACar.bussines.responses.brands.GetByIdBrandsResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

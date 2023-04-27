@@ -1,4 +1,4 @@
-package com.example.rentACar.bussines.requests;
+package com.example.rentACar.bussines.responses.brands;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateBrandRequest {
+public class GetByIdBrandsResponse {
+    private int id;
     private String name;
 }

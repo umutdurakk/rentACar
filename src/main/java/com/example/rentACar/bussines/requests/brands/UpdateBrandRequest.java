@@ -1,4 +1,4 @@
-package com.example.rentACar.bussines.requests;
+package com.example.rentACar.bussines.requests.brands;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

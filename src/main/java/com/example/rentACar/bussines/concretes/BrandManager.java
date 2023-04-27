@@ -1,10 +1,10 @@
 package com.example.rentACar.bussines.concretes;
 
 import com.example.rentACar.bussines.abstracts.BrandService;
-import com.example.rentACar.bussines.requests.CreateBrandRequest;
-import com.example.rentACar.bussines.requests.UpdateBrandRequest;
-import com.example.rentACar.bussines.responses.GetAllBrandsResponse;
-import com.example.rentACar.bussines.responses.GetByIdBrandsResponse;
+import com.example.rentACar.bussines.requests.brands.CreateBrandRequest;
+import com.example.rentACar.bussines.requests.brands.UpdateBrandRequest;
+import com.example.rentACar.bussines.responses.brands.GetAllBrandsResponse;
+import com.example.rentACar.bussines.responses.brands.GetByIdBrandsResponse;
 import com.example.rentACar.core.utilities.mappers.ModelMapperService;
 import com.example.rentACar.dataAccess.abstracts.BrandRepository;
 import com.example.rentACar.entities.concretes.Brand;
