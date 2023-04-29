@@ -3,6 +3,7 @@ package com.example.rentACar.webApi.controllers;
 import com.example.rentACar.bussines.abstracts.ModelService;
 import com.example.rentACar.bussines.requests.models.CreateModelRequest;
 import com.example.rentACar.bussines.responses.models.GetAllModelResponse;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -25,7 +26,7 @@ public class ModelsController {
 
     @PostMapping("/add")
     @ResponseStatus(code = HttpStatus.CREATED)
-    void Add(CreateModelRequest createModelRequest){
+    void Add(@RequestBody @Valid CreateModelRequest createModelRequest){
         this.modelService.add(createModelRequest);
     }
 
